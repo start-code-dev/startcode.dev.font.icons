@@ -1,0 +1,17 @@
+@mixin icons($icon_name, $position:null) {
+    @extend .icon;
+    @if $position == a {
+        &:after{
+            content: $icon_name;
+        }
+    }@else if $position == b {
+        &:before{
+            content: $icon_name;
+        }
+    }
+    @else {
+        &:before{
+            content: $icon_name;
+        }
+    }
+}

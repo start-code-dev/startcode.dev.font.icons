@@ -1,0 +1,18 @@
+{
+  "name": "startcode.dev.font.icons",
+  "homepage": "https://github.com/start-code-dev/startcode.dev.font.icons",
+  "authors": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>"
+  ],
+  "description": "font family mixin library",
+  "main": "src/_font_family.scss",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "font",
+    "font-family",
+    "fonts"
+  ],
+  "license": "MIT"
+}
