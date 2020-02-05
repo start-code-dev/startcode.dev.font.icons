@@ -1,0 +1,85 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q5nxyr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q5nxyr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?q5nxyr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?q5nxyr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?q5nxyr##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heartbeat {
+  &:before {
+    content: $icon-heartbeat; 
+  }
+}
+.icon-lock {
+  &:before {
+    content: $icon-lock; 
+  }
+}
+.icon-running {
+  &:before {
+    content: $icon-running; 
+  }
+}
+.icon-shield {
+  &:before {
+    content: $icon-shield; 
+  }
+}
+.icon-heartbeat1 {
+  &:before {
+    content: $icon-heartbeat1; 
+  }
+}
+.icon-security {
+  &:before {
+    content: $icon-security; 
+  }
+}
+.icon-ticket {
+  &:before {
+    content: $icon-ticket; 
+  }
+}
+.icon-man-user {
+  &:before {
+    content: $icon-man-user; 
+  }
+}
+.icon-chat {
+  &:before {
+    content: $icon-chat; 
+  }
+}
+.icon-shopping-cart {
+  &:before {
+    content: $icon-shopping-cart; 
+  }
+}
+.icon-finish {
+  &:before {
+    content: $icon-finish; 
+  }
+}
+

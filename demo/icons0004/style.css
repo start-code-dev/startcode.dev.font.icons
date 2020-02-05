@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'icons0004';
+    src:    url('fonts/icons0004.eot?58hthl');
+    src:    url('fonts/icons0004.eot?58hthl#iefix') format('embedded-opentype'),
+        url('fonts/icons0004.ttf?58hthl') format('truetype'),
+        url('fonts/icons0004.woff?58hthl') format('woff'),
+        url('fonts/icons0004.svg?58hthl#icons0004') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons0004' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Abuse:before {
+    content: "\e900";
+}
+.icon-android:before {
+    content: "\e901";
+}
+.icon-apple:before {
+    content: "\e902";
+}
+.icon-Arrowright:before {
+    content: "\e903";
+}
+.icon-back-arrow:before {
+    content: "\e904";
+}
+.icon-bell:before {
+    content: "\e905";
+}
+.icon-bin1:before {
+    content: "\e906";
+}
+.icon-bin2:before {
+    content: "\e907";
+}
+.icon-bin3:before {
+    content: "\e908";
+}
+.icon-bin4:before {
+    content: "\e909";
+}
+.icon-block_sign:before {
+    content: "\e90a";
+}
+.icon-btn-check-inactive:before {
+    content: "\e90b";
+}
+.icon-btn-check-inactive1:before {
+    content: "\e90c";
+}
+.icon-btn-close:before {
+    content: "\e90d";
+}
+.icon-btn-deny:before {
+    content: "\e90e";
+}
+.icon-btn-ellipsis:before {
+    content: "\e90f";
+}
+.icon-btn-favorite-false:before {
+    content: "\e910";
+}
+.icon-btn-message-empty:before {
+    content: "\e911";
+}
+.icon-btn-message-send1:before {
+    content: "\e912";
+}
+.icon-btn-message-send:before {
+    content: "\e913";
+}
+.icon-btn-save:before {
+    content: "\e914";
+}
+.icon-bubble:before {
+    content: "\e915";
+}
+.icon-camera-1:before {
+    content: "\e916";
+}
+.icon-camera:before {
+    content: "\e917";
+}
+.icon-checklist:before {
+    content: "\e918";
+}
+.icon-close:before {
+    content: "\e919";
+}
+.icon-facebook:before {
+    content: "\e91a";
+}
+.icon-favorite:before {
+    content: "\e91b";
+}
+.icon-googleplus:before {
+    content: "\e91c";
+}
+.icon-hamburger-menu:before {
+    content: "\e91d";
+}
+.icon-hide:before {
+    content: "\e91e";
+}
+.icon-instagram:before {
+    content: "\e91f";
+}
+.icon-likes-filled:before {
+    content: "\e920";
+}
+.icon-likes-open:before {
+    content: "\e921";
+}
+.icon-lists:before {
+    content: "\e922";
+}
+.icon-logo-maze-002:before {
+    content: "\e923";
+}
+.icon-message:before {
+    content: "\e924";
+}
+.icon-money:before {
+    content: "\e925";
+}
+.icon-money1:before {
+    content: "\e926";
+}
+.icon-padlock-locked-1:before {
+    content: "\e927";
+}
+.icon-padlock-locked:before {
+    content: "\e928";
+}
+.icon-padlock-unlocked:before {
+    content: "\e929";
+}
+.icon-pen:before {
+    content: "\e92a";
+}
+.icon-report:before {
+    content: "\e92b";
+}
+.icon-search-sm:before {
+    content: "\e92c";
+}
+.icon-Smileyempty:before {
+    content: "\e92d";
+}
+.icon-Smileyfull:before {
+    content: "\e92e";
+}
+.icon-sub-discount-flag:before {
+    content: "\e92f";
+}
+.icon-time:before {
+    content: "\e930";
+}
+.icon-twitter:before {
+    content: "\e931";
+}
+.icon-visitor-1:before {
+    content: "\e932";
+}
+.icon-visitor:before {
+    content: "\e933";
+}
+.icon-world:before {
+    content: "\e934";
+}
+

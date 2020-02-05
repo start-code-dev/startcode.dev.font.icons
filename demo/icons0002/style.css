@@ -1,0 +1,170 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* =======================================================================================
+Example showing how to change the color/size of the icons:
+.icon-name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+}
+======================================================================================== */
+
+.icon-addphoto {
+	width: 1.1591796875em;
+}
+
+.icon-back {
+	width: 0.6201171875em;
+}
+
+.icon-backarrow {
+	width: 1.0078125em;
+}
+
+.icon-bin-o {
+	width: 0.9208984375em;
+}
+
+.icon-bin {
+	width: 0.9208984375em;
+}
+
+.icon-dropdown {
+	width: 1.7705078125em;
+}
+
+.icon-geotag {
+	width: 0.7783203125em;
+}
+
+.icon-geotag2 {
+	width: 0.666015625em;
+}
+
+.icon-heart-empty {
+	width: 1.16796875em;
+}
+
+.icon-heart-full {
+	width: 1.16796875em;
+}
+
+.icon-heart-half {
+	width: 1.16796875em;
+}
+
+.icon-heart2-o {
+	width: 1.0869140625em;
+}
+
+.icon-heart2 {
+	width: 1.0869140625em;
+}
+
+.icon-home {
+	width: 0.9375em;
+}
+
+.icon-key {
+	width: 1.0712890625em;
+}
+
+.icon-label {
+	width: 1.2529296875em;
+}
+
+.icon-lock {
+	width: 0.8173828125em;
+}
+
+.icon-menu1 {
+	width: 0.9765625em;
+}
+
+.icon-menu2 {
+	width: 0.23828125em;
+}
+
+.icon-message-o {
+	width: 0.9599609375em;
+}
+
+.icon-message {
+	width: 0.9599609375em;
+}
+
+.icon-message2 {
+	width: 1.2861328125em;
+}
+
+.icon-photo {
+	width: 1.142578125em;
+}
+
+.icon-picture2-o {
+	width: 1.26953125em;
+}
+
+.icon-picture2 {
+	width: 1.26953125em;
+}
+
+.icon-power {
+	width: 0.9130859375em;
+}
+
+.icon-premium {
+	width: 1.23046875em;
+}
+
+.icon-profile {
+	width: 0.6982421875em;
+}
+
+.icon-profile2 {
+	width: 0.9287109375em;
+}
+
+.icon-rocket {
+	width: 0.9990234375em;
+}
+
+.icon-save {
+	width: 1.3017578125em;
+}
+
+.icon-settings {
+	width: 0.9912109375em;
+}
+
+.icon-shield {
+	width: 0.841796875em;
+}
+
+.icon-smile-o {
+	width: 0.9990234375em;
+}
+
+.icon-smile {
+	width: 0.9990234375em;
+}
+
+.icon-star-empty {
+	width: 1.048828125em;
+}
+
+.icon-star-full {
+	width: 1.048828125em;
+}
+
+.icon-star-half {
+	width: 1.048828125em;
+}
+
+.icon-unlocked {
+	width: 0.7470703125em;
+}

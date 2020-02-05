@@ -1,0 +1,210 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2aa5rb');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2aa5rb#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2aa5rb') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2aa5rb') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2aa5rb##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow_back {
+  &:before {
+    content: $icon-arrow_back;     
+    color: #545454;
+  }
+}
+.icon-caption {
+  &:before {
+    content: $icon-caption;     
+    color: #545454;
+  }
+}
+.icon-close_white {
+  &:before {
+    content: $icon-close_white;     
+    color: #fff;
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close;     
+    color: #545454;
+  }
+}
+.icon-comments {
+  &:before {
+    content: $icon-comments;     
+    color: #545454;
+  }
+}
+.icon-credits_empty {
+  &:before {
+    content: $icon-credits_empty;     
+    color: #c4c4c4;
+  }
+}
+.icon-credits_white {
+  &:before {
+    content: $icon-credits_white;     
+    color: #fff;
+  }
+}
+.icon-credits {
+  &:before {
+    content: $icon-credits;     
+    color: #1961ce;
+  }
+}
+.icon-empty_state {
+  &:before {
+    content: $icon-empty_state;     
+    color: #545454;
+  }
+}
+.icon-eye {
+  &:before {
+    content: $icon-eye;     
+    color: #545454;
+  }
+}
+.icon-heart_dark {
+  &:before {
+    content: $icon-heart_dark; 
+  }
+}
+.icon-heart_red {
+  &:before {
+    content: $icon-heart_red;     
+    color: #ea2a58;
+  }
+}
+.icon-heart {
+  &:before {
+    content: $icon-heart;     
+    color: #545454;
+  }
+}
+.icon-home_active {
+  &:before {
+    content: $icon-home_active; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home;     
+    color: #545454;
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location;     
+    color: #545454;
+  }
+}
+.icon-message_active {
+  &:before {
+    content: $icon-message_active; 
+  }
+}
+.icon-message_delete {
+  &:before {
+    content: $icon-message_delete;     
+    color: #fff;
+  }
+}
+.icon-message_send {
+  &:before {
+    content: $icon-message_send;     
+    color: #545454;
+  }
+}
+.icon-message_white {
+  &:before {
+    content: $icon-message_white;     
+    color: #fff;
+  }
+}
+.icon-message {
+  &:before {
+    content: $icon-message;     
+    color: #545454;
+  }
+}
+.icon-options {
+  &:before {
+    content: $icon-options;     
+    color: #545454;
+  }
+}
+.icon-post_add {
+  &:before {
+    content: $icon-post_add;     
+    color: #0097ed;
+  }
+}
+.icon-post_multi {
+  &:before {
+    content: $icon-post_multi;     
+    color: #fff;
+  }
+}
+.icon-post_video {
+  &:before {
+    content: $icon-post_video;     
+    color: #fff;
+  }
+}
+.icon-search_active {
+  &:before {
+    content: $icon-search_active; 
+  }
+}
+.icon-search_location {
+  &:before {
+    content: $icon-search_location; 
+  }
+}
+.icon-search_tag {
+  &:before {
+    content: $icon-search_tag; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search;     
+    color: #545454;
+  }
+}
+.icon-share {
+  &:before {
+    content: $icon-share;     
+    color: #545454;
+  }
+}
+.icon-verified {
+  &:before {
+    content: $icon-verified;     
+    color: #0097ed;
+  }
+}
+
