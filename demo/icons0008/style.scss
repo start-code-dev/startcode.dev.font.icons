@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q5nxyr');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?q5nxyr#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?q5nxyr') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?q5nxyr') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?q5nxyr##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bwdomd');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bwdomd#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bwdomd') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bwdomd') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bwdomd##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,76 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-circle-down {
+  &:before {
+    content: $icon-circle-down; 
+  }
+}
+.icon-circle-left {
+  &:before {
+    content: $icon-circle-left; 
+  }
+}
+.icon-circle-right {
+  &:before {
+    content: $icon-circle-right; 
+  }
+}
+.icon-circle-up {
+  &:before {
+    content: $icon-circle-up; 
+  }
+}
+.icon-circle-vol-1circle {
+  &:before {
+    content: $icon-circle-vol-1circle; 
+  }
+}
+.icon-clip {
+  &:before {
+    content: $icon-clip; 
+  }
+}
+.icon-dental-care-insurance-protection-guarantee-promise {
+  &:before {
+    content: $icon-dental-care-insurance-protection-guarantee-promise; 
+  }
+}
+.icon-envelope {
+  &:before {
+    content: $icon-envelope; 
+  }
+}
+.icon-exclamation-fill {
+  &:before {
+    content: $icon-exclamation-fill; 
+  }
+}
+.icon-exclamation {
+  &:before {
+    content: $icon-exclamation; 
+  }
+}
+.icon-pen {
+  &:before {
+    content: $icon-pen; 
+  }
+}
+.icon-right-arrow {
+  &:before {
+    content: $icon-right-arrow; 
+  }
+}
+.icon-tick {
+  &:before {
+    content: $icon-tick; 
+  }
+}
+.icon-writing {
+  &:before {
+    content: $icon-writing; 
+  }
+}
 .icon-heartbeat {
   &:before {
     content: $icon-heartbeat; 

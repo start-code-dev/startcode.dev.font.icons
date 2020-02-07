@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0008';
-  src:  url('fonts/icons0008.eot?q5nxyr');
-  src:  url('fonts/icons0008.eot?q5nxyr#iefix') format('embedded-opentype'),
-    url('fonts/icons0008.ttf?q5nxyr') format('truetype'),
-    url('fonts/icons0008.woff?q5nxyr') format('woff'),
-    url('fonts/icons0008.svg?q5nxyr#icons0008') format('svg');
+  src:  url('fonts/icons0008.eot?bwdomd');
+  src:  url('fonts/icons0008.eot?bwdomd#iefix') format('embedded-opentype'),
+    url('fonts/icons0008.ttf?bwdomd') format('truetype'),
+    url('fonts/icons0008.woff?bwdomd') format('woff'),
+    url('fonts/icons0008.svg?bwdomd#icons0008') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-circle-down:before {
+  content: "\e90b";
+}
+.icon-circle-left:before {
+  content: "\e90c";
+}
+.icon-circle-right:before {
+  content: "\e90d";
+}
+.icon-circle-up:before {
+  content: "\e90e";
+}
+.icon-circle-vol-1circle:before {
+  content: "\e90f";
+}
+.icon-clip:before {
+  content: "\e910";
+}
+.icon-dental-care-insurance-protection-guarantee-promise:before {
+  content: "\e911";
+}
+.icon-envelope:before {
+  content: "\e912";
+}
+.icon-exclamation-fill:before {
+  content: "\e913";
+}
+.icon-exclamation:before {
+  content: "\e914";
+}
+.icon-pen:before {
+  content: "\e915";
+}
+.icon-right-arrow:before {
+  content: "\e916";
+}
+.icon-tick:before {
+  content: "\e917";
+}
+.icon-writing:before {
+  content: "\e918";
+}
 .icon-heartbeat:before {
   content: "\e900";
 }
