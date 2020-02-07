@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0009';
-  src:  url('fonts/icons0009.eot?2aa5rb');
-  src:  url('fonts/icons0009.eot?2aa5rb#iefix') format('embedded-opentype'),
-    url('fonts/icons0009.ttf?2aa5rb') format('truetype'),
-    url('fonts/icons0009.woff?2aa5rb') format('woff'),
-    url('fonts/icons0009.svg?2aa5rb#icons0009') format('svg');
+  src:  url('fonts/icons0009.eot?v4qfl8');
+  src:  url('fonts/icons0009.eot?v4qfl8#iefix') format('embedded-opentype'),
+    url('fonts/icons0009.ttf?v4qfl8') format('truetype'),
+    url('fonts/icons0009.woff?v4qfl8') format('woff'),
+    url('fonts/icons0009.svg?v4qfl8#icons0009') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-account_active:before {
+  content: "\e91f";
+}
+.icon-account:before {
+  content: "\e920";
+  color: #545454;
+}
+.icon-star_active:before {
+  content: "\e921";
+}
+.icon-star:before {
+  content: "\e922";
+  color: #545454;
+}
 .icon-arrow_back:before {
   content: "\e900";
   color: #545454;

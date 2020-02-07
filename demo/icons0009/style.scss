@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2aa5rb');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?2aa5rb#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?2aa5rb') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?2aa5rb') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?2aa5rb##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?v4qfl8');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?v4qfl8#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?v4qfl8') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?v4qfl8') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?v4qfl8##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-account_active {
+  &:before {
+    content: $icon-account_active; 
+  }
+}
+.icon-account {
+  &:before {
+    content: $icon-account;     
+    color: #545454;
+  }
+}
+.icon-star_active {
+  &:before {
+    content: $icon-star_active; 
+  }
+}
+.icon-star {
+  &:before {
+    content: $icon-star;     
+    color: #545454;
+  }
+}
 .icon-arrow_back {
   &:before {
     content: $icon-arrow_back;     
