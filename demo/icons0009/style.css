@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0009';
-  src:  url('fonts/icons0009.eot?v4qfl8');
-  src:  url('fonts/icons0009.eot?v4qfl8#iefix') format('embedded-opentype'),
-    url('fonts/icons0009.ttf?v4qfl8') format('truetype'),
-    url('fonts/icons0009.woff?v4qfl8') format('woff'),
-    url('fonts/icons0009.svg?v4qfl8#icons0009') format('svg');
+  src:  url('fonts/icons0009.eot?wt65hm');
+  src:  url('fonts/icons0009.eot?wt65hm#iefix') format('embedded-opentype'),
+    url('fonts/icons0009.ttf?wt65hm') format('truetype'),
+    url('fonts/icons0009.woff?wt65hm') format('woff'),
+    url('fonts/icons0009.svg?wt65hm#icons0009') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-camera:before {
+  content: "\e923";
+}
+.icon-clip:before {
+  content: "\e924";
+}
 .icon-account_active:before {
   content: "\e91f";
 }
