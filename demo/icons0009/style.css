@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0009';
-  src:  url('fonts/icons0009.eot?22evq0');
-  src:  url('fonts/icons0009.eot?22evq0#iefix') format('embedded-opentype'),
-    url('fonts/icons0009.ttf?22evq0') format('truetype'),
-    url('fonts/icons0009.woff?22evq0') format('woff'),
-    url('fonts/icons0009.svg?22evq0#icons0009') format('svg');
+  src:  url('fonts/icons0009.eot?u6anog');
+  src:  url('fonts/icons0009.eot?u6anog#iefix') format('embedded-opentype'),
+    url('fonts/icons0009.ttf?u6anog') format('truetype'),
+    url('fonts/icons0009.woff?u6anog') format('woff'),
+    url('fonts/icons0009.svg?u6anog#icons0009') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-logout:before {
+  content: "\e927";
+}
+.icon-delete:before {
+  content: "\e928";
+}
+.icon-tick2:before {
+  content: "\e929";
+}
 .icon-lock:before {
   content: "\e925";
 }
