@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0008';
-  src:  url('fonts/icons0008.eot?bwdomd');
-  src:  url('fonts/icons0008.eot?bwdomd#iefix') format('embedded-opentype'),
-    url('fonts/icons0008.ttf?bwdomd') format('truetype'),
-    url('fonts/icons0008.woff?bwdomd') format('woff'),
-    url('fonts/icons0008.svg?bwdomd#icons0008') format('svg');
+  src:  url('fonts/icons0008.eot?ce2yo3');
+  src:  url('fonts/icons0008.eot?ce2yo3#iefix') format('embedded-opentype'),
+    url('fonts/icons0008.ttf?ce2yo3') format('truetype'),
+    url('fonts/icons0008.woff?ce2yo3') format('woff'),
+    url('fonts/icons0008.svg?ce2yo3#icons0008') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-dental-1:before {
+  content: "\e911";
+}
 .icon-circle-down:before {
   content: "\e90b";
 }
@@ -42,9 +45,6 @@
 }
 .icon-clip:before {
   content: "\e910";
-}
-.icon-dental-care-insurance-protection-guarantee-promise:before {
-  content: "\e911";
 }
 .icon-envelope:before {
   content: "\e912";
