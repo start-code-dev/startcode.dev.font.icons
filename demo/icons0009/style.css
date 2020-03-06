@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0009';
-  src:  url('fonts/icons0009.eot?r496x6');
-  src:  url('fonts/icons0009.eot?r496x6#iefix') format('embedded-opentype'),
-    url('fonts/icons0009.ttf?r496x6') format('truetype'),
-    url('fonts/icons0009.woff?r496x6') format('woff'),
-    url('fonts/icons0009.svg?r496x6#icons0009') format('svg');
+  src:  url('fonts/icons0009.eot?em26mx');
+  src:  url('fonts/icons0009.eot?em26mx#iefix') format('embedded-opentype'),
+    url('fonts/icons0009.ttf?em26mx') format('truetype'),
+    url('fonts/icons0009.woff?em26mx') format('woff'),
+    url('fonts/icons0009.svg?em26mx#icons0009') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cog:before {
+  content: "\e92c";
+}
 .icon-logout:before {
   content: "\e92b";
 }
