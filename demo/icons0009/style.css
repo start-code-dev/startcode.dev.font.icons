@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0009';
-  src:  url('fonts/icons0009.eot?u6anog');
-  src:  url('fonts/icons0009.eot?u6anog#iefix') format('embedded-opentype'),
-    url('fonts/icons0009.ttf?u6anog') format('truetype'),
-    url('fonts/icons0009.woff?u6anog') format('woff'),
-    url('fonts/icons0009.svg?u6anog#icons0009') format('svg');
+  src:  url('fonts/icons0009.eot?r496x6');
+  src:  url('fonts/icons0009.eot?r496x6#iefix') format('embedded-opentype'),
+    url('fonts/icons0009.ttf?r496x6') format('truetype'),
+    url('fonts/icons0009.woff?r496x6') format('woff'),
+    url('fonts/icons0009.svg?r496x6#icons0009') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,7 +26,13 @@
 }
 
 .icon-logout:before {
+  content: "\e92b";
+}
+.icon-eye-full:before {
   content: "\e927";
+}
+.icon-instagram:before {
+  content: "\e92a";
 }
 .icon-delete:before {
   content: "\e928";
