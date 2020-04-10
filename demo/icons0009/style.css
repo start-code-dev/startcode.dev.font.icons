@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons0009';
-  src:  url('fonts/icons0009.eot?em26mx');
-  src:  url('fonts/icons0009.eot?em26mx#iefix') format('embedded-opentype'),
-    url('fonts/icons0009.ttf?em26mx') format('truetype'),
-    url('fonts/icons0009.woff?em26mx') format('woff'),
-    url('fonts/icons0009.svg?em26mx#icons0009') format('svg');
+  src:  url('fonts/icons0009.eot?bgc0cl');
+  src:  url('fonts/icons0009.eot?bgc0cl#iefix') format('embedded-opentype'),
+    url('fonts/icons0009.ttf?bgc0cl') format('truetype'),
+    url('fonts/icons0009.woff?bgc0cl') format('woff'),
+    url('fonts/icons0009.svg?bgc0cl#icons0009') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu-1:before {
+  content: "\e915";
+}
+.icon-menu:before {
+  content: "\e92e";
+}
+.icon-paper-1:before {
+  content: "\e92f";
+}
+.icon-paper:before {
+  content: "\e930";
+}
 .icon-cog:before {
   content: "\e92c";
 }
@@ -151,7 +163,7 @@
   color: #545454;
 }
 .icon-options:before {
-  content: "\e915";
+  content: "\e92d";
   color: #545454;
 }
 .icon-post_add:before {
