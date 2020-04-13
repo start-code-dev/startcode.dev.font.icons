@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bgc0cl');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bgc0cl#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bgc0cl') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bgc0cl') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bgc0cl##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?egmzbp');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?egmzbp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?egmzbp') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?egmzbp') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?egmzbp##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,96 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-about {
+  &:before {
+    content: $icon-about;     
+    color: #545454;
+  }
+}
+.icon-arrow_download {
+  &:before {
+    content: $icon-arrow_download;     
+    color: #545454;
+  }
+}
+.icon-buy_credits {
+  &:before {
+    content: $icon-buy_credits;     
+    color: #545454;
+  }
+}
+.icon-dashboard {
+  &:before {
+    content: $icon-dashboard;     
+    color: #545454;
+  }
+}
+.icon-edit_profile {
+  &:before {
+    content: $icon-edit_profile;     
+    color: #545454;
+  }
+}
+.icon-hamburger {
+  &:before {
+    content: $icon-hamburger;     
+    color: #545454;
+  }
+}
+.icon-help {
+  &:before {
+    content: $icon-help;     
+    color: #545454;
+  }
+}
+.icon-logout1 {
+  &:before {
+    content: $icon-logout1;     
+    color: #545454;
+  }
+}
+.icon-notifications {
+  &:before {
+    content: $icon-notifications;     
+    color: #545454;
+  }
+}
+.icon-paper1 {
+  &:before {
+    content: $icon-paper1;     
+    color: #545454;
+  }
+}
+.icon-payouts {
+  &:before {
+    content: $icon-payouts;     
+    color: #545454;
+  }
+}
+.icon-photo {
+  &:before {
+    content: $icon-photo;     
+    color: #fff;
+  }
+}
+.icon-security {
+  &:before {
+    content: $icon-security;     
+    color: #545454;
+  }
+}
+.icon-settings {
+  &:before {
+    content: $icon-settings;     
+    color: #545454;
+  }
+}
+.icon-statistics {
+  &:before {
+    content: $icon-statistics;     
+    color: #545454;
+  }
+}
 .icon-menu-1 {
   &:before {
     content: $icon-menu-1; 
