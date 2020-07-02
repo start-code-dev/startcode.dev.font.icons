@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?egmzbp');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?egmzbp#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?egmzbp') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?egmzbp') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?egmzbp##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4mscg4');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?4mscg4#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?4mscg4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?4mscg4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?4mscg4##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,7 +15,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -27,6 +27,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mute-off {
+  &:before {
+    content: $icon-mute-off; 
+  }
+}
+.icon-mute-on {
+  &:before {
+    content: $icon-mute-on; 
+  }
+}
+.icon-full-screen {
+  &:before {
+    content: $icon-full-screen; 
+  }
+}
+.icon-pause {
+  &:before {
+    content: $icon-pause; 
+  }
+}
+.icon-play-button-trans {
+  &:before {
+    content: $icon-play-button-trans; 
+  }
+}
+.icon-play-button {
+  &:before {
+    content: $icon-play-button; 
+  }
+}
+.icon-volume-off {
+  &:before {
+    content: $icon-volume-off; 
+  }
+}
+.icon-volume-on {
+  &:before {
+    content: $icon-volume-on; 
+  }
+}
 .icon-about {
   &:before {
     content: $icon-about;     
